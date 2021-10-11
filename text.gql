@@ -1,0 +1,20 @@
+# --
+#  Aqui viria a explicação desta query 
+# --
+# ++ 
+#   Teste(texto: "teste") {
+#       id        
+#   }
+# ++
+#
+query Graphql {
+	Test(texto: String): responseTest
+}
+#
+# **
+#   Aqui viria a explicação Da response da query  
+# **
+#
+type responseTest {
+	id: String
+}
